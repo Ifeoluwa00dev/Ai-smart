@@ -9,6 +9,7 @@ import Realtime from './components/Realtime'
 import AboutUs from './components/AboutUs'
 
 import Tutorial from './components/TutorialVideo'
+import ContactUs from './components/ContactUs'
 
 const App = () => {
   return (
@@ -17,12 +18,12 @@ const App = () => {
     <Realtime/>
     <LiveMarket/>
     <AboutUs/>
-    {/* <GetStarted/> */}
+    <GetStarted/>
 
     <Tutorial/>
     <Packages/>
     <Testimonial/>
-    
+    <ContactUs/>
     <Footer/>
     </>
   )

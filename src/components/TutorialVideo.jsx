@@ -74,8 +74,14 @@ export default function ForexTutorial() {
   ];
 
   return (
-    <div className="min-h-screen text-white">
+
+
+    <section id='start'>
+
+<div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-white overflow-x-hidden">
       <div className="max-w-7xl mx-auto p-6">
+
+    
         {/* Header */}
         <div className="text-center mb-12 pt-8">
           <h1 className="text-5xl font-bold mb-4 bg-amber-400 bg-clip-text text-transparent">
@@ -229,9 +235,10 @@ export default function ForexTutorial() {
               const Icon = section.icon;
               return (
                 <div
-                  key={index}
-                  className="bg-[rgb(13,29,44)] rounded-2xl p-6 hover:shadow-2xl hover:shadow-blue-500/20 transition-all"
-                >
+  key={index}
+  className="relative bg-[rgb(13,29,44)] rounded-2xl p-6 hover:shadow-2xl hover:shadow-blue-500/20 transition-all"
+>
+
                     {/* Connecting Line (hidden on mobile, shown on desktop between cards) */}
               {index < learningPath.length - 1 && (
                 <div className="hidden lg:block absolute top-16 left-[calc(100%)] w-8 h-0.5 bg-gray-300 z-0" />
@@ -271,5 +278,11 @@ export default function ForexTutorial() {
 
       </div>
     </div>
+
+
+
+
+    </section>
+    
   );
 }
