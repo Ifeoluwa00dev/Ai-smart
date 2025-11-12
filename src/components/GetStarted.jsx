@@ -1,39 +1,39 @@
 import React from "react";
-import { FaComments, FaRulerCombined, FaCheckCircle, FaTruck } from "react-icons/fa";
+import { FaComments, FaChartLine, FaRobot, FaShieldAlt} from "react-icons/fa";
 
 const steps = [
   {
     id: 1,
     icon: <FaComments />,
     title: "Consultation",
-    description: "Share your vision with our experts. We'll guide you through material options, designs, and provide personalized recommendations.",
+    description: "We analyze your trading goals and risk appetite to tailor an AI-powered strategy just for you.",
     color: "bg-emerald-50",
     iconColor: "text-emerald-600",
     borderColor: "border-emerald-600",
   },
   {
     id: 2,
-    icon: <FaRulerCombined />,
-    title: "Measurement & Selection",
-    description: "Our team visits your site for precise measurements. Choose from our premium collection with samples and detailed specifications.",
+    icon: <FaChartLine />,
+    title: "Strategy Setup",
+    description: "AI continuously monitors market conditions and selects the best trades for maximum returns.",
     color: "bg-amber-50",
     iconColor: "text-amber-600",
     borderColor: "border-amber-600",
   },
   {
     id: 3,
-    icon: <FaCheckCircle />,
-    title: "Approval & Fabrication",
-    description: "Review and approve designs. Our craftsmen begin custom cutting, polishing, and finishing to exact specifications.",
+    icon: <FaRobot />,
+    title: "AI Execution",
+    description: "Trades are executed automatically on optimal trading days while keeping your funds secure.",
     color: "bg-blue-50",
     iconColor: "text-blue-600",
     borderColor: "border-blue-600",
   },
   {
     id: 4,
-    icon: <FaTruck />,
-    title: "Delivery & Installation",
-    description: "Timely delivery and professional installation by our skilled team. We ensure flawless placement and a perfect finish.",
+    icon: <FaShieldAlt />,
+    title: "Monitoring & Growth",
+    description: "We ensure transparent reporting and constant AI supervision so your investments grow safely.",
     color: "bg-purple-50",
     iconColor: "text-purple-600",
     borderColor: "border-purple-600",
@@ -47,11 +47,10 @@ const GetStarted = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
-            How To Get Started
+           WHY CHOOSE US ?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
-            From consultation to installation, we make the process seamless. 
-            Here's how we bring your vision to life.
+            Here's how we help you make money , from wherever you are.
           </p>
         </div>
 
@@ -94,25 +93,6 @@ const GetStarted = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <div className="inline-block bg-gradient-to-r from-emerald-50 to-blue-50 rounded-3xl p-8 md:p-12 shadow-xl">
-            <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-4">
-              Ready To Transform Your Space?
-            </h3>
-            <p className="text-gray-600 mb-8 font-light max-w-xl mx-auto">
-              Let's discuss your project and create something extraordinary together.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-gray-900 text-white rounded-full font-light text-lg hover:bg-gray-800 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                Schedule Consultation
-              </button>
-              <button className="px-8 py-4 bg-white text-gray-900 rounded-full font-light text-lg border-2 border-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                View Portfolio
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

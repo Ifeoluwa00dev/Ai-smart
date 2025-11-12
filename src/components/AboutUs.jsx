@@ -19,20 +19,13 @@ export default function AboutUs() {
               <h1 className="text-4xl font-bold text-gray-900 mb-6">About Us</h1>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  We are a forward-thinking company dedicated to delivering innovative solutions 
-                  that make a difference. Our mission is to empower businesses and individuals 
-                  through cutting-edge technology and exceptional service.
+                  AI SMART FLUID TRADING is an AI-powered copy trading system that lets you earn passively while AI trades for you 
                 </p>
                 <p>
-                  Founded with a vision to transform the industry, we've grown into a trusted 
-                  partner for clients around the world. Our team of experts brings together 
-                  diverse skills and perspectives to tackle complex challenges with creativity 
-                  and precision.
+                  Our system uses institutional and psychological Trading concepts to mirror trades from a master provider account directly into your CPT Markets account. No guesswork. Just automated, smart and disciplined trading.
                 </p>
                 <p>
-                  We believe in building lasting relationships, fostering innovation, and 
-                  maintaining the highest standards of quality in everything we do. Join us 
-                  on our journey to shape the future.
+                  Trading Days: The AI trades only on Tuesday, Wednesday and Thursday to focus on the most optimal market conditions
                 </p>
               </div>
             </div>
