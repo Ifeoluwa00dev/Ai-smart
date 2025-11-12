@@ -136,7 +136,7 @@ const Hero = () => {
     {mobileMenuOpen && (
       <div className="lg:hidden pb-6 animate-fade-in-down">
         <ul className="space-y-4 mb-6">
-          {['Home', 'About Us', 'Product', 'Services'].map((item) => (
+          {['Home', 'About Us', 'Services'].map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase().replace(' ', '-')}`}
