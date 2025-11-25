@@ -42,28 +42,25 @@ export default function ContactUs() {
             </div>
             <div className="flex items-center gap-3 text-gray-300">
               <Phone className="w-5 h-5 text-amber-400" />
-              <span>+234 810 123 4567</span>
+              <span>+44 7886 980102</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-300">
+            {/* <div className="flex items-center gap-3 text-gray-300">
               <MapPin className="w-5 h-5 text-amber-400" />
               <span>Obafemi Awolowo University, Ile-Ife, Nigeria</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-8 flex space-x-4">
+          <a
+          href="https://whatsapp.com/channel/0029VbBGaIU42DchbyYOnd3c"
+          target="_blank"
+          className="p-3 bg-slate-700 hover:bg-slate-600 rounded-xl transition"
+        >
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" className="w-6 h-6" alt="WhatsApp" />
+          
+        </a>
             <a
-              href="https://twitter.com"
-              target="_blank"
-              className="p-3 bg-slate-700 hover:bg-slate-600 rounded-xl transition"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
-                alt="X"
-                className="w-6 h-6"
-              />
-            </a>
-            <a
-              href="https://t.me"
+              href="https://t.me/SmartFlu"
               target="_blank"
               className="p-3 bg-slate-700 hover:bg-slate-600 rounded-xl transition"
             >
@@ -74,7 +71,7 @@ export default function ContactUs() {
               />
             </a>
             <a
-              href="https://discord.com"
+              href="https://discord.gg/6eX4tTdX"
               target="_blank"
               className="p-3 bg-slate-700 hover:bg-slate-600 rounded-xl transition"
             >

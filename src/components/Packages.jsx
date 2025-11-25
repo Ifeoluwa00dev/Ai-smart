@@ -176,9 +176,11 @@ const Packages = () => {
           <p className="text-gray-400 mb-6">
             Book a free consultation with our experts to find the perfect match for your trading goals
           </p>
-          <button className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Schedule Free Consultation
-          </button>
+          <a href="#contact">
+  <button className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+    Schedule Free Consultation
+  </button>
+</a>
         </div>
       </div>
     </div>

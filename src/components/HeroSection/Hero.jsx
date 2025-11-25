@@ -56,7 +56,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col overflow-hidden bg-[url('./assets/images/hero.png')] bg-cover bg-center bg-no-repeat">
+    <div id='home' className="relative min-h-screen flex flex-col overflow-hidden bg-[url('./assets/images/hero.png')] bg-cover bg-center bg-no-repeat">
       
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/70 to-slate-900/85"></div>

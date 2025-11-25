@@ -4,16 +4,16 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Youtube, S
 const Footer = () => {
   const quickLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'About Us', href: '#about' },
+    { name: 'About Us', href: '#about-us' },
     { name: 'Services', href: '#services' },
     { name: 'Contact', href: '#contact' }
   ];
 
   const services = [
-    { name: 'Educational Service', href: '#education' },
-    { name: 'VVIP Trading Alerts', href: '#alerts' },
-    { name: 'Affiliate Program', href: '#affiliate' },
-    { name: 'Copy Trading', href: '#trading' }
+    { name: 'Educational Service', href: '#services' },
+    { name: 'VVIP Trading Alerts', href: '#services' },
+    { name: 'Affiliate Program', href: '#services' },
+    
   ];
 
   const socialLinks = [
@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
             
             {/* Social Links */}
-            <div className="flex gap-3">
+            {/* <div className="flex gap-3">
               {socialLinks.map((social, index) => {
                 const Icon = social.icon;
                 return (
@@ -64,7 +64,7 @@ const Footer = () => {
                   </a>
                 );
               })}
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -124,12 +124,12 @@ const Footer = () => {
               </a>
               <a href="tel:+1234567890" className="flex items-start gap-3 text-gray-400 hover:text-amber-400 transition-colors text-sm group">
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>+1 (234) 567-890</span>
+                <span>+44 7886 980102</span>
               </a>
-              <div className="flex items-start gap-3 text-gray-400 text-sm">
+              {/* <div className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span>Global Trading Hub</span>
-              </div>
+              </div> */}
             </div>
 
             {/* Newsletter */}
